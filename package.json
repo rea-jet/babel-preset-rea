@@ -1,0 +1,32 @@
+{
+  "name": "@rea-jet/babel-preset-rea",
+  "version": "1.0.0",
+  "description": "Preset of babel plugins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rea-jet/babel-preset-rea.git"
+  },
+  "keywords": [
+    "babel",
+    "preset",
+    "rea"
+  ],
+  "author": "Daniel Schuech <dschuech@rea.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rea-jet/babel-preset-rea/issues"
+  },
+  "homepage": "https://github.com/rea-jet/babel-preset-rea#readme",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/plugin-proposal-decorators": "^7.2.3",
+    "@babel/plugin-proposal-function-bind": "^7.2.0",
+    "@babel/plugin-transform-exponentiation-operator": "^7.2.0",
+    "babel-plugin-emotion": "^10.0.6",
+    "babel-plugin-named-asset-import": "^0.3.0"
+  }
+}
