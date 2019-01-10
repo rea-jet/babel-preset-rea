@@ -16,7 +16,7 @@
     "rea"
   ],
   "author": "Daniel Schuech <dschuech@rea.de>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/rea-jet/babel-preset-rea/issues"
   },
@@ -26,6 +26,7 @@
     "@babel/plugin-proposal-decorators": "^7.2.3",
     "@babel/plugin-proposal-function-bind": "^7.2.0",
     "@babel/plugin-transform-exponentiation-operator": "^7.2.0",
+    "@svgr/webpack": "2.4.1",
     "babel-plugin-emotion": "^10.0.6",
     "babel-plugin-named-asset-import": "^0.3.0"
   }
