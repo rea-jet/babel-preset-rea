@@ -1,6 +1,6 @@
 {
   "name": "@rea-jet/babel-preset-rea",
-  "version": "1.0.0",
+  "version": "2.0.0-beta1",
   "description": "Preset of babel plugins",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,16 @@
     "rea"
   ],
   "author": "Daniel Schuech <dschuech@rea.de>",
+  "contributors": [
+    {
+      "name": "Daniel Schuech",
+      "email": "dschuech@rea.de"
+    },
+    {
+      "name": "Dennis Sänger",
+      "email": "dsaenger@rea.de"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/rea-jet/babel-preset-rea/issues"
