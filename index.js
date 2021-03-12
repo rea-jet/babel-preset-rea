@@ -1,9 +1,10 @@
-module.exports = function() {
+module.exports = function () {
   return {
     plugins: [
+      require.resolve('@babel/plugin-transform-modules-commonjs'),
       [
         require.resolve('@babel/plugin-proposal-decorators'),
-        { decoratorsBeforeExport: true }
+        { decoratorsBeforeExport: true },
       ],
       require.resolve('@babel/plugin-proposal-class-properties'),
       require.resolve('@babel/plugin-transform-exponentiation-operator'),
@@ -14,11 +15,11 @@ module.exports = function() {
         {
           loaderMap: {
             svg: {
-              ReactComponent: '@svgr/webpack?-prettier,-svgo![path]'
-            }
-          }
-        }
-      ]
-    ]
+              ReactComponent: '@svgr/webpack?-prettier,-svgo![path]',
+            },
+          },
+        },
+      ],
+    ],
   };
 };

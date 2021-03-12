@@ -26,6 +26,7 @@
     "@babel/plugin-proposal-decorators": "^7.13.5",
     "@babel/plugin-proposal-function-bind": "^7.12.13",
     "@babel/plugin-transform-exponentiation-operator": "^7.12.13",
+    "@babel/plugin-transform-modules-commonjs": "^7.13.8",
     "@svgr/webpack": "4.0.0",
     "babel-plugin-emotion": "^11.0.0",
     "babel-plugin-named-asset-import": "^0.3.7"
